@@ -66,7 +66,7 @@ export default function ContactUs() {
 
 const styles = StyleSheet.create({
     mainContainer: {
-        flex: 1, // Ensures the main container takes the full height
+        flex: 1, 
     },
     container: {
         flexDirection: 'column',
@@ -95,10 +95,10 @@ const styles = StyleSheet.create({
         marginBottom: 7,
     },
     scrollView: {
-        flexGrow: 1, // Ensures the ScrollView behaves correctly
+        flexGrow: 1, 
     },
     keyboardAvoidingView: {
-        flex: 1, // Ensures proper layout with keyboard adjustments
+        flex: 1, 
     },
     yourdetail: {
         margin: 'auto',
@@ -108,8 +108,8 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
     footerText: {
-        color: "white", // Set text color to white
-        fontSize: 16, // Optional: Adjust font size if needed
+        color: "white", 
+        fontSize: 16, 
     },
     intro: {
         padding: 2,
